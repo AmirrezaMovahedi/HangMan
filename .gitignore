@@ -1,0 +1,26 @@
+
+
+
+*.log
+
+
+
+# IDE
+.idea/ # PyCharm settings
+
+
+# Python
+*.pyc
+env/
+venv/
+
+
+
+
+
+.idea/
+media/
+**/__pycache__/
+
+
+
