@@ -15,7 +15,7 @@ response = requests.get(url)
 if response.status_code == 200:
     someWords = []
     for fruit in response.json():
-        someWords.append(fruit['name'])
+        someWords.append(fruit['name'].lower())
     word = random.choice(someWords)
 
 if __name__ == '__main__':
